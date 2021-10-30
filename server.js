@@ -15,7 +15,7 @@ app.use(cors());
 // Home route for testing our app
 
 app.get("/", (req, res)=> {
-    res.send("Hello World");
+    res.json(home);
 });
 
 // Route for retrieving projects
